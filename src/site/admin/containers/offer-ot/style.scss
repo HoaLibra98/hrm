@@ -1,0 +1,93 @@
+.custom-offer-ot {
+  .ot-hours {
+    margin: 0px 25px;
+    // text-align: center;
+    .button-inner {
+      width: 110px;
+      display: inline-block;
+      .ant-btn {
+        width: 80px;
+        border-width: 1px;
+        border-radius: 50px;
+        margin: 5px;
+        padding: 5px 10px;
+        display: inherit !important;
+        span {
+          display: inline-block;
+          margin: auto;
+          font-weight: bold;
+        }
+      }
+      img {
+        position: relative;
+        top: -17px;
+        right: 23px;
+      }
+    }
+  }
+  .ant-form-item-control-input-content {
+    .ant-calendar-picker {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  .panel-content {
+    .ant-form {
+      .ant-btn {
+        margin-left: auto;
+        display: flex;
+      }
+    }
+  }
+  .ant-form-item {
+    p {
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
+  .ant-table-cell-fix-right {
+    text-align: initial !important;
+  }
+}
+.custome-panel {
+  .panel-toolbar {
+    @media (max-width: 1187px) {
+      width: calc(100% - 140px);
+    }
+    @media (max-width: 767px) {
+      width: auto;
+    }
+    .toolbar {
+      button {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        min-width: 0px !important;
+        width: auto;
+        @media (max-width: 1187px) {
+          width: calc(100% - 30px);
+        }
+        @media (max-width: 1120px) {
+          width: calc(100% - 50px);
+        }
+        @media (max-width: 1048px) {
+          width: calc(100% - 69px);
+        }
+        @media (max-width: 991px) {
+          width: calc(100% - 10px);
+        }
+        @media (max-width: 886px) {
+          width: calc(100% - 20px);
+        }
+        @media (max-width: 859px) {
+          width: calc(100% - 39px);
+        }
+        @media (max-width: 799px) {
+          width: calc(100% - 60px);
+        }
+        @media (max-width: 767px) {
+          width: auto;
+        }
+      }
+    }
+  }
+}

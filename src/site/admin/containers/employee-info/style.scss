@@ -1,0 +1,125 @@
+.ant-card-head {
+  background-color: rgb(240, 243, 245);
+  .ant-row {
+    border: 2px solid;
+    border-radius: 7px;
+    .ant-col {
+      // border: 1px solid;
+      text-align: center;
+      p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        :nth-child(2) {
+          white-space: break-spaces !important;
+        }
+      }
+      &:nth-child(2n + 1) {
+        border-right: 2px solid;
+      }
+      &:nth-child(1) {
+        border-right: 2px solid;
+      }
+      &:nth-child(1) {
+        border-bottom: 2px solid;
+      }
+      &:nth-child(2) {
+        border-bottom: 2px solid;
+      }
+    }
+  }
+}
+.ant-card-body {
+  .employee-infor {
+    width: 100%;
+    div {
+      border-top: 1px solid #ddd;
+      p {
+        margin-left: 25px;
+      }
+      color: black;
+    }
+  }
+}
+.checkin-out {
+  border: 1px solid #53aba9;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 1.5em;
+  .fa-times {
+    color: #d30126;
+  }
+  .fa-check {
+    color: #278a25;
+  }
+  div {
+    margin-top: 8px;
+    p {
+      .fal {
+        font-weight: 900;
+      }
+      i {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+.identity {
+  color: black;
+  b {
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  // b + b {
+  //   margin-left: 20px;
+  // }
+}
+.qrCode {
+  text-align: center;
+  padding: 8px;
+}
+.site-calendar-demo-card {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+.calendar {
+  border-radius: 8px;
+  border: 1px solid #53aba9;
+  .ant-fullcalendar-header {
+    // border-radius: 7px 7px 0px 0px;
+    // border: 1px solid #666666;
+    padding: 8px;
+    .ant-select {
+      .ant-select-selector {
+        height: 29px;
+        border-radius: 5px !important;
+        align-items: center;
+        border: 1px solid;
+      }
+      .ant-select-arrow {
+        .anticon {
+          > svg {
+            fill: #53aba9;
+          }
+        }
+      }
+    }
+    .ant-radio-group {
+      display: none;
+    }
+  }
+  > .ant-fullcalendar {
+    border-radius: 0px 0px 7px 7px;
+    border-top: 1px solid #53aba9;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+}
+.qrCode {
+  img {
+    width: 165px;
+    height: 165px;
+    margin: auto;
+  }
+}

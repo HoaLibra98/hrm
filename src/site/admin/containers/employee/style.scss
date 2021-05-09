@@ -1,0 +1,23 @@
+.mgr-user-create {
+    .project-detail-employee {
+        .item {
+            margin: 0 5px 3px;
+            display: inline-block;
+            padding: 0 7px;
+        }
+    }
+    .project-create-employee {
+        .ant-select-selection__choice,
+        .item {
+            background-color: #29cc97;
+            border-radius: 18px;
+            height: 33px;
+            line-height: 33px;
+            color: #ffffff;
+            .ant-select-selection__choice__remove {
+                color: #ffffff;
+                line-height: 27px;
+            }
+        }
+    }
+}
